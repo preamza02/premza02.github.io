@@ -167,7 +167,7 @@ nav ul li a:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 350px;
-  height: 400px;
+  height: 70vh;
   border: 1px solid black;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -221,6 +221,19 @@ nav ul li a:hover {
   border: none;
   -webkit-box-shadow: 0 0 20px black;
           box-shadow: 0 0 20px black;
+}
+
+.box ul li ul {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.box ul li ul li {
+  margin: 0px;
+  margin-left: 15px;
+  padding: 0;
+  list-style: circle;
 }
 
 #experience {
@@ -286,6 +299,7 @@ nav ul li a:hover {
 .timeline__title {
   margin: 0;
   font-size: 1.15em;
+  font-weight: bold;
 }
 
 .timeline__paragraph {
@@ -293,6 +307,7 @@ nav ul li a:hover {
 }
 
 #projects {
+  color: #000;
   background: #e9c46a;
 }
 
@@ -334,6 +349,20 @@ nav ul li a:hover {
   text-align: justify;
   padding: 10px;
   border-radius: 15px;
+}
+
+.project h2 {
+  margin-top: 15px;
+}
+
+.project h4 {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.project p {
+  text-align: left;
+  font-size: 16px;
 }
 
 #contact {
